@@ -1,1 +1,7 @@
-<p>contact-list works!</p>
+<div class="table table-hover">
+    <tr *ngFor ="let contact of contactlist">
+        <td>{{ contact.contactName }}</td>
+        <td>{{ contact.contactNumber }}</td>
+        <td>{{ contact.contactaddress }}</td>
+    </tr>
+</div>

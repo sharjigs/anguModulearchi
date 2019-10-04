@@ -1,0 +1,16 @@
+{
+    "Contact" : [
+        {
+            "id":1,
+            "contactName":"Jigs",
+            "contactNumber":32133,
+            "contactaddress": "Developer"
+        },
+        {
+            "id":2,
+            "contactName":"Parth",
+            "contactNumber":2321321,
+            "contactaddress": "Gujarat"
+        }
+    ]
+}
