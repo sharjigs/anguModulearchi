@@ -1,0 +1,20 @@
+{
+    "Admin" : [
+        {
+            "id":1,
+            "firstName":"Jigs",
+            "lastName":"Sharma",
+            "designation": "Developer",
+            "contact": 7852364825,
+            "address":"Ahmedabad"
+        },
+        {
+            "id":2,
+            "firstName":"Jigs",
+            "lastName":"Sharma",
+            "designation": "Developer",
+            "contact": 7852364825,
+            "address":"Ahmedabad"
+        }
+    ]
+}
