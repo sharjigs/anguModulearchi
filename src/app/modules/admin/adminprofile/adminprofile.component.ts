@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-adminprofile',
@@ -9,7 +9,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 export class AdminprofileComponent implements OnInit {
 
   adminprofileForm = new FormGroup({
-    firstName : new FormControl(''),
+    firstName : new FormControl('',Validators.required),
     lastName : new FormControl(''),
     designation : new FormControl(''),
     contact : new FormControl(''),
@@ -22,6 +22,10 @@ export class AdminprofileComponent implements OnInit {
 
   onSubmit(){
     console.log(this.adminprofileForm.value);
+
+    console.log(this.adminprofileForm.controls['firstName'].value);
+
+    console.log(this.adminprofileForm.get('firstName').value);
   }
 
 }

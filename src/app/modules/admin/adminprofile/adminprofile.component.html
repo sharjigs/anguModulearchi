@@ -20,5 +20,8 @@
             <input type="text" formControlName="address"/>
     </label>
 
-    <button type="submit" (click)="onSubmit()">Submit</button>
+    <button type="submit" [disabled]="!adminprofileForm.valid">Submit</button>
 </form>
+
+
+<!--https://www.youtube.com/watch?v=sYYQ7ziB9kM-->
